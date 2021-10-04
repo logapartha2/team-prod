@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 # Create a VPC
-resource "aws_vpc" "MAIN" {
+resource "aws_vpc" "TEAM_MAIN" {
     cidr_block = "10.0.0.0/16"
     tags = {
     Name = "partha_vpc"
